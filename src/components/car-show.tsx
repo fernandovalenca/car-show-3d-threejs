@@ -41,7 +41,7 @@ export default function CarShow() {
       <Boxes />
       <FloatingGrid />
 
-      <CubeCamera resolution={256} frames={Infinity}>
+      <CubeCamera resolution={100} frames={Infinity}>
         {/*@ts-ignore*/}
         {(texture) => (
           <mesh>
